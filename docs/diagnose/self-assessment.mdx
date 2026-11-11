@@ -1,0 +1,48 @@
+---
+sidebar_position: 1
+title: Self-assessment
+---
+
+import VelocityCalculator from '@site/src/components/VelocityCalculator';
+
+# Self-assessment
+
+This assessment takes about 20 minutes for one person and works better in an hour with three or four people from different teams. Disagreement between scorers is useful data. It usually means one team has a factor that another team doesn't.
+
+## How to score
+
+Score each factor from 0 to 4 using the scale below. Base the score on what you can observe, not on what your policy says should happen. Use the diagnostic questions on each factor page as evidence.
+
+| Score | Level | What it looks like |
+| --- | --- | --- |
+| 0 | Nonexistent | Nobody manages this factor. Outcomes depend entirely on who you know. |
+| 1 | Ad hoc | Some teams do it well, by individual effort. It doesn't survive a reorg. |
+| 2 | Developing | There's a standard or a tool, and it's applied unevenly. |
+| 3 | Defined | It's owned, it's consistent across teams, and someone measures it. |
+| 4 | Optimized | It's measured, improved on a cycle, and built into how work gets done. |
+
+Most enterprise organizations land at 1 or 2 on most factors. A 3 is genuinely good. Be honest about that base rate, because inflated scores hide the constraint.
+
+## Scoring prompts
+
+**Speed.** Can a new employee find the answer to a common operational question in under five minutes without asking anyone?
+
+**Clarity.** Can someone outside the owning team act on your most-used documents without a follow-up conversation?
+
+**Trust.** Do people act on the documentation they find, or do they check with a colleague first?
+
+**Reusability.** When you build a recurring deliverable, how much of it comes from existing, structured components instead of being written from scratch?
+
+## Calculate your index
+
+The index converts each score to a fraction of 4 and multiplies them. A perfect score is 100. The calculator also shows what an additive model would report, so you can see how much an average hides.
+
+<VelocityCalculator />
+
+## Example
+
+A platform team scores itself Speed 3, Clarity 3, Trust 1, Reusability 2.
+
+An average says 56 out of 100, which sounds like a team in decent shape. The multiplied index is about 7 out of 100. The team's knowledge exists and reads well, but nobody believes it, so it barely gets used. Trust is the constraint, and no amount of investment in search or rewriting will move the index until it's fixed.
+
+Next, read [how to interpret your score](./reading-your-score.md).
